@@ -1,0 +1,16 @@
+<div class="banner-container" [style.background-image]="getBackgroundStyle()">
+    <header class="main-header">
+        <!-- nội dung header -->
+    </header>
+
+    <div class="banner-content">
+        <h1>Vòng Xoay Thời Gian</h1>
+        <p>Mô tả phim ngắn ở đây...</p>
+
+        <div class="image-thumbnails">
+            <img src="assets/image/vong-xoay-thoi-gian.png" (click)="changeBackground('assets/image/vong-xoay-thoi-gian.png')">
+            <img src="assets/image/nu-tu-bong-toi.png" (click)="changeBackground('assets/image/nu-tu-bong-toi.png')">
+            <img src="assets/image/sat-thu-vo-cung-cuc.png" (click)="changeBackground('assets/image/sat-thu-vo-cung-cuc.png')">
+        </div>
+    </div>
+</div>
