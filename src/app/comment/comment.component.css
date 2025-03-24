@@ -1,0 +1,51 @@
+.comment-movie{
+    font-size: 14px;
+    max-height: 280px;
+    white-space: nowrap; 
+    margin-top: 10px;
+}
+.user-comment-movie{
+    background-color: #111218;
+    width: 430px;
+    height: 70px;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+.user-comment-movie:hover{
+    border: 2px solid #61626c ;
+    cursor: pointer;
+}
+.user-comment-movie img{
+    width: 35px;
+    height: 35px;
+    border-radius: 16px;
+    margin: 10px;
+}
+.comment-content{
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    gap: 8px;
+}
+.user-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:  #EBC871;
+}
+.user-content{
+    color: #8a8b93;
+    max-width: 400px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.movie-name{
+    color: #63646a;
+}
+.movie-name i{
+    color:  #EBC871;
+    margin-right: 5px;
+}

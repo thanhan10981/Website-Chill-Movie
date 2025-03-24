@@ -1,0 +1,40 @@
+.list-raking{
+    font-size: 16px;
+}
+.list-raking-movie{
+    display: flex;
+    margin: 10px 0;
+    gap:15px;
+}
+.number-movie, .icon-racking{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    margin-top: 10px;
+}
+a:hover{
+    color: #EBC871;
+}
+.number-movie{
+    color: #44454C;
+    font-weight: bold;
+}
+.icon-racking i:first-child {
+    font-size: 18px;
+}
+
+.icon-racking i:first-child.ri-arrow-right-up-line {
+    color: #BEDC33;  
+    font-weight: bold;
+}
+
+.icon-racking i:first-child.ri-arrow-right-down-line {
+    color: rgb(242, 76, 76); 
+}
+.list-raking-movie img{
+    width: 36px;
+    height: 48px;
+    border-radius: 5px;
+}

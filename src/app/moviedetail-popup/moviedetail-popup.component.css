@@ -1,0 +1,93 @@
+.movie-poster{
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+.popup-content {
+    width: 100%;
+    max-width: 100%;
+    min-height: fit-content; /* Độ cao linh hoạt theo nội dung */
+    
+}
+
+.popup-content .title-viet {
+    font-size: 22px;
+    margin: 3px 0;
+    font-weight: bold;
+}
+
+.popup-content .title-eng{
+    font-size: 14px;
+    color: #EBC871;
+    margin-bottom: 3px;
+}
+
+.movie-info {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.imdb{
+    border: 1px solid #EBC871;
+    color: #EBC871;
+}
+.age{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+.year, .duration{
+    background: rgba(255, 255, 255, 0.1);
+}
+.movie-info span {
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+.genres {
+    font-size: 13px;
+    color: #bbb;
+}
+
+.watch-now, .like-btn, .detail-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #EBC871;
+    color: black;
+    font-size: 14px;
+    border: none;
+    padding: 7px 10px;
+    margin-right: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.like-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    gap: 5px;
+}
+
+.detail-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    gap: 5px;
+}
+
+.watch-now:hover {
+    background: #ffb300;
+}
+
+.like-btn:hover, .detail-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}

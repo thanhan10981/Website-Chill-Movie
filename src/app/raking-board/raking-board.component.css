@@ -1,0 +1,36 @@
+.raking-board{
+    border:0.3px solid  rgba(255, 255, 255, 0.2);;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px; */
+    width: 1480px;
+    height: 372px;
+    margin-top: 103px;
+    margin-left: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.raking-board > div {
+    flex: 1; 
+    padding: 20px 34px;
+}
+.raking-board > div:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2); /* Chỉ thêm viền bên phải, không có viền ngoài */
+}
+h3{
+    font-size: 12px;
+    color: #FBFBFC;
+}
+.title i{
+    color:  #EBC871;
+    font-size: 16px;    
+}
+.see_more{
+    color: #44454C;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;    
+}
+.see_more:hover{
+    color: #EBC871;
+}
