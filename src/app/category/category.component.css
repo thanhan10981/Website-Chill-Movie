@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  margin: 0;
+  padding: 40px;
+  
+}
+
+/* Phần danh sách chủ đề */
+.category-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.category-list {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 110px;
+  gap: .7rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category {
+  background: radial-gradient(
+    at left top,
+    hsla(0, 16%, 44%, -3.2) 31%,
+    hsla(0, 51%, 71%, 69.79) 80%);
+  padding: 17px 15.8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  
+  text-align: center;
+  min-width: 160px;
+  font-weight: bold; /* Làm cho chữ đậm */
+  font-size: 1.2rem; /* Tăng kích thước chữ */
+  text-align: center; /* Căn giữa chữ */
+  color: white; /* Màu chữ trắng */
+  font-family: 'Roboto', sans-serif;
+  
+}
+/* Điều chỉnh nút "+3 chủ đề" */
+.topics {
+  width: 190px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.category:hover {
+  transform: scale(1.1);
+}
+.topics:hover {
+  transform: scale(1.1);
+}

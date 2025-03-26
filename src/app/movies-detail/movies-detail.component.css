@@ -1,0 +1,82 @@
+/* Định dạng chung cho cả movies-detail và new-movies */
+.movie-detail {
+    position: absolute;
+    bottom: 100%;
+    transform: translateX(0%);
+    background: linear-gradient(33deg, rgba(90, 77, 106, 100), #282b3a);
+    color: white;
+    
+    border-radius: 8px;
+    width: 400px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    z-index: 100;
+}
+
+.movie:hover .movie-detail-1 {
+    display: block;
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.movie-content {
+    flex: 1;
+}
+
+.title-viet {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-eng {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.watch-now, .like-btn, .detail-btn {
+    margin-left: 10px;
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.like-btn {
+    background: #444;
+}
+
+.detail-btn {
+    background: #666;
+}
+
+.movie-info {
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.movie-info span {
+    margin-right: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 4px 6px;
+    border-radius: 5px;
+    
+}
+
+.genres {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 8px;
+}
+.movie-detail p, h3{
+    margin-left: 10px;
+}

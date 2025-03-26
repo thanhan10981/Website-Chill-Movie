@@ -1,0 +1,108 @@
+.movies-container {
+    width: 98%;
+    /* max-width: 800px; */
+    margin: 20px auto;
+    padding: 10px;
+    /* background: linear-gradient(33deg, rgba(40, 43, 58, 0) , #282b3a); */
+    background: linear-gradient(33deg, rgba(90, 77, 106, 100), #282b3a);;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.movies-container h3 {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.movie-list {
+    display: flex;
+    /* gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.movie {
+    /* width: calc(33.33% - 10px);
+    background: #1a1a1a; */
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.movie p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Detail hiển thị khi hover vào phim */
+.movie:hover .movie-detail-1 {
+    display: block;
+}
+
+/* Định dạng */
+.movie-detail-1 {
+    display: none;
+    position: absolute;
+   
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    z-index: 100;
+}
+
+.movie-detail-1::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.9) transparent transparent transparent;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.section-header h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.view-all {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s;
+    white-space: nowrap; /* Đảm bảo chữ không bị xuống dòng */
+}
+
+.view-all:hover {
+    color: orange; /* Đổi màu khi hover */
+}
